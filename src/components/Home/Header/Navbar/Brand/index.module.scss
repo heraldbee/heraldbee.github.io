@@ -1,0 +1,21 @@
+@import '../../../../../styles';
+
+.image {
+    &Container {
+        margin: 0;
+        width: 150px;
+        transition: width .3s;
+
+        @include respond-to(medium) {
+            width: 200px;
+        }
+
+        @include respond-to(large) {
+            width: 250px;
+        }
+    }
+
+    &Content {
+        margin: 0;
+    }
+}

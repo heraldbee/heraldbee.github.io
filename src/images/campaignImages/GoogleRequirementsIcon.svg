@@ -1,0 +1,70 @@
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="34"
+      height="34"
+      viewBox="0 0 34 34"
+    >
+      <g
+        id="Group_211"
+        data-name="Group 211"
+        transform="translate(8728 18868)"
+      >
+        <circle
+          id="Ellipse_62"
+          data-name="Ellipse 62"
+          cx="17"
+          cy="17"
+          r="17"
+          transform="translate(-8728 -18868)"
+          data-circle="true"
+        />
+        <g id="outline-view_list-24px" transform="translate(-8723 -18863)">
+          <path
+            id="Path_1816"
+            data-name="Path 1816"
+            d="M0,0H24V24H0Z"
+            fill="none"
+          />
+          <path
+            id="Path_1817"
+            data-name="Path 1817"
+            d="M19,3H14.82A2.988,2.988,0,0,0,9.18,3H5a1.752,1.752,0,0,0-.4.04A2.021,2.021,0,0,0,3.16,4.23,1.926,1.926,0,0,0,3,5V19a2.052,2.052,0,0,0,.16.78,2.119,2.119,0,0,0,.43.64,2.008,2.008,0,0,0,1.01.55A2.6,2.6,0,0,0,5,21H19a2.006,2.006,0,0,0,2-2V5A2.006,2.006,0,0,0,19,3Zm-7-.25a.75.75,0,1,1-.75.75A.755.755,0,0,1,12,2.75ZM19,19H5V5H19Z"
+            data-outline="true"
+          />
+          <g
+            id="search_1_"
+            data-name="search (1)"
+            transform="translate(7.613 7.025)"
+          >
+            <path
+              id="Path_1818"
+              data-name="Path 1818"
+              d="M1.989,141.268l-.312,1.166-1.142.024a4.5,4.5,0,0,1-.033-4.19h0l1.017.186.445,1.01a2.678,2.678,0,0,0,.025,1.8Z"
+              transform="translate(0 -135.844)"
+              data-outline="true"
+            />
+            <path
+              id="Path_1819"
+              data-name="Path 1819"
+              d="M265.938,208.176a4.486,4.486,0,0,1-1.6,4.338h0l-1.28-.065-.181-1.131a2.675,2.675,0,0,0,1.151-1.366h-2.4v-1.775h4.31Z"
+              transform="translate(-257.042 -204.527)"
+              data-outline="true"
+            />
+            <path
+              id="Path_1820"
+              data-name="Path 1820"
+              d="M37.271,311.972h0a4.489,4.489,0,0,1-6.762-1.373l1.454-1.19a2.669,2.669,0,0,0,3.846,1.366Z"
+              transform="translate(-29.974 -303.986)"
+              data-outline="true"
+            />
+            <path
+              id="Path_1821"
+              data-name="Path 1821"
+              d="M35.474,1.033,34.02,2.223a2.668,2.668,0,0,0-3.934,1.4l-1.462-1.2h0a4.488,4.488,0,0,1,6.85-1.391Z"
+              transform="translate(-28.122)"
+              data-outline="true"
+            />
+          </g>
+        </g>
+      </g>
+    </svg>

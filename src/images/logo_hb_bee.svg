@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="529.81mm" height="529.65mm" enable-background="new" version="1.1" viewBox="0 0 529.81 529.65" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <defs>
+  <filter id="filter1001" color-interpolation-filters="sRGB">
+   <feBlend in2="BackgroundImage" mode="hard-light"/>
+  </filter>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-19.485 -176.56)" opacity=".99">
+  <g transform="rotate(-11 355.33 478.17)" fill="#f0f0f0" stroke="#54281f" stroke-width="8">
+   <path d="m283.47 283.09s19.706-101.27-48.227-124.41c-14.337-4.8854-40.98 25.939-42.572 60.868-1.8126 39.761 25.646 102.89 32.912 105.59 6.6817 2.4902 22.112-6.025 33.578-14.153 20.356-14.43 24.309-27.896 24.309-27.896z"/>
+   <path d="m214.61 328.87s-57.08-113.6-127.88-101.84c-14.942 2.4824-23.822 42.246-8.6921 73.768 17.222 35.883 51.333 53.522 64.014 59.201 22.894 10.254 75.69-18.059 72.557-31.128z"/>
+  </g>
+ </g>
+ <g transform="translate(-19.485 -176.56)">
+  <g transform="matrix(.79997 .22185 -.22185 .79997 243.33 -33.607)">
+   <ellipse transform="rotate(-13.76)" cx="303.81" cy="403.78" rx="18.025" ry="12.915" fill="#54281f"/>
+   <path d="m390.55 310.65s-40.849 11.981-49.5 71.411" fill="none" stroke="#54281f" stroke-width="6"/>
+  </g>
+ </g>
+ <g transform="translate(-19.485 -176.56)">
+  <path d="m336 320.14a187.89 187.89 0 0 0-30.134 2.5156c-65.251 186.63 69.283 336.61 99.055 360.12a187.89 187.89 0 0 0 52.494-31.626c-147.48-128.06-120.73-290.58-99.757-329.63a187.89 187.89 0 0 0-21.659-1.3772zm-79.607 17.926a187.89 187.89 0 0 0-58.401 42.805c-54.698 161.25 25.746 263.21 60.91 298.32a187.89 187.89 0 0 0 77.098 16.73 187.89 187.89 0 0 0 2.4366-0.0863c-134.52-132.58-105.25-329.76-82.044-357.77zm-63.881 48.687a187.89 187.89 0 0 0-0.3917 0.4625c0.13017-0.15445 0.261-0.30842 0.3917-0.4625z" fill="#54281f" stroke="#54281f" stroke-width="8"/>
+ </g>
+ <g transform="translate(-19.485 -176.56)">
+  <path d="m357.79 321.27c-21.001 38.634-48.197 201.7 99.826 330.06 42.131-35.689 66.46-88.082 66.54-143.3-0.0313-46.107-16.991-90.598-47.659-125.03-30.668-34.428-72.91-56.398-118.71-61.738zm-51.852 1.1784c-14.965 1.9662-35.32 8.7164-48.852 14.826-23.315 24.861-54.547 224.88 81.57 358.78 22.775-0.30202 45.306-4.7368 66.497-13.089-29.327-22.943-164.81-173.33-99.215-360.52zm-107.79 57.955c-32.234 34.696-50.198 80.272-50.308 127.63 0.10166 74.151 43.744 141.33 111.45 171.56-34.989-34.774-116.36-137.06-61.146-299.19z" fill="#ffd742" stroke="#54281f" stroke-width="8"/>
+ </g>
+ <g transform="translate(-19.485 -176.56)" fill="#54281f">
+  <ellipse transform="rotate(-9.2823)" cx="333.29" cy="475.49" rx="15.393" ry="33.645"/>
+  <ellipse transform="rotate(-4.8218)" cx="414.09" cy="456.28" rx="10.151" ry="22.187"/>
+ </g>
+ <g transform="translate(-19.485 -176.56)" filter="url(#filter1001)" opacity=".489">
+  <path d="m523.04 525.01c-41.007 93.666-143.8 114.84-213.41 110.4-91.51-5.8388-147.43-57.045-147.43-57.045 0.16468 0.61158 0.33645 1.2186 0.50643 1.8268 29.122 70.009 97.471 115.65 173.3 115.73 46.878-0.0201 92.055-17.563 126.66-49.185 34.606-31.622 56.142-75.038 60.379-121.72z" fill="#54281f" opacity="1"/>
+ </g>
+ <g transform="translate(-19.485 -176.56)" fill="#54281f">
+  <path d="m460.86 278.34a12.915 18.025 68.332 0 1-11.982 18.658 12.915 18.025 68.332 0 1-21.52-5.3473 12.915 18.025 68.332 0 1 11.982-18.658 12.915 18.025 68.332 0 1 21.52 5.3473z"/>
+  <path d="m438.32 274.11c-0.47278 4e-3 -0.93789 0.11988-1.3574 0.33789 0 0-35.095 17.881-41.941 67.957-0.34322 2.4666-0.26654 15.796 1.3968 16.619 1.0151 0.50226 3.2083-5.8179 4.5485-15.806 6.5049-47.579 38.686-63.406 38.686-63.406 2.8821-1.3939 1.8693-5.7286-1.332-5.7012z" color="#000000" color-rendering="auto" dominant-baseline="auto" enable-background="accumulate" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+ </g>
+</svg>

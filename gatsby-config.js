@@ -1,3 +1,9 @@
+let activeEnv = process.env.GATSBY_ACTIVE_ENV || process.env.NODE_ENV || 'dev';
+console.log(`Using environment config: '${activeEnv}'`);
+require("dotenv").config({
+  path: `.env.${activeEnv}`,
+});
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
@@ -37,11 +43,6 @@ module.exports = {
         hostingWPCOM: false,
         // does your site use the Advanced Custom Fields Plugin?
         useACF: true,
-        auth: {
-          htaccess_user: `wbednarz@heraldbee.com`,
-          htaccess_pass: `Heraldbi123!`,
-          htaccess_sendImmediately: true
-        }
       }
     },
     'gatsby-plugin-sass'

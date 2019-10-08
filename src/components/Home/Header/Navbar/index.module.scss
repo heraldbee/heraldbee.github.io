@@ -1,0 +1,28 @@
+@import '../../../../styles';
+
+.container {
+    width: 100%;
+    box-shadow: 0 3px 5px $lightGray2;
+    transition: height .3s, width .3s;
+    padding: 0 5px;
+
+    @include respond-to(medium) {
+        padding: 10px 5px;
+        box-shadow: 0 3px 5px $lightGray;
+    }
+
+    @include respond-to(large) {
+        align-items: center !important;
+        width: 1024px;
+    }
+
+    @include respond-to(xLarge) {
+        width: 1200px;
+        height: 140px;
+        box-shadow: none;
+    }
+
+    @include respond-to(xxLarge) {
+        width: 1350px;
+    }
+}
