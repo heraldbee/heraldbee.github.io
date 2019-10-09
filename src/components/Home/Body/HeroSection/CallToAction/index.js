@@ -15,8 +15,8 @@ import styles from './index.module.scss';
 const CallToAction = () =>
     <div className="column is-6 is-5-fullhd is-offset-1-fullhd">
         <div className="section-header">
-            <h1 className="title is-spaced is-family-secondary">Proste i całkowicie zautomatyzowane sklepy internetowe</h1>
-            <h2 className={`${styles.contentSubtitle} subtitle is-3`}>Przenieś swoją sprzedaż do internetu używając automatycznych rozwiązań dla e-commerce.</h2>
+            <h1 className="title is-size-2-desktop is-spaced is-family-secondary">Proste i całkowicie zautomatyzowane sklepy internetowe</h1>
+            <h2 className={`${styles.contentSubtitle} subtitle is-size-4 is-size-3-desktop`}>Przenieś swoją sprzedaż do internetu używając automatycznych rozwiązań dla e-commerce.</h2>
             <div className={`${styles.contentControls} box`}>
                 <MaterialButton>
                     <span className="button is-primary">

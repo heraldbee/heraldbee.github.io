@@ -1,0 +1,6 @@
+@import '../../../../styles';
+
+.container {
+    background-color: $backgroundBlue;
+    @include sectionContainer;
+}

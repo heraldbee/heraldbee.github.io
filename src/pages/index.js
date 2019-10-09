@@ -1,10 +1,11 @@
 // Core
 import React from "react";
-import { Link } from "gatsby";
 
 // Custom Components
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import HeroSection from '../components/Home/Body/HeroSection';
+import FeaturedSection from '../components/Home/Body/FeaturedSection';
 
 // Stylesheet
 import './index.scss';
@@ -12,8 +13,8 @@ import './index.scss';
 const IndexPage = () =>
   <Layout>
     <SEO title="Home" />
-    
-    <Link to="/page-2/">Go to page 2</Link>
+    <HeroSection />
+    <FeaturedSection />
   </Layout>
 
 export default IndexPage;

@@ -4,6 +4,8 @@
     &Text {
         margin-top: 5px;
         text-align: center;
+        
+        @include descriptionText;
         @include opaqueTextLight;
     }
 }
