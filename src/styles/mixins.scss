@@ -1,3 +1,16 @@
+@import './breakpoints.scss';
+
+// Layout
+@mixin sectionContainer {
+    @include respond-to(small) {
+        padding: 20px;
+    }
+
+    @include respond-to(large) {
+        padding: 40px 60px;
+    }
+}
+
 // Typography
 @mixin transparentTextHeavy {
     opacity: .4;

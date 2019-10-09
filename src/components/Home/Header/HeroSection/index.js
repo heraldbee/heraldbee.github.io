@@ -9,7 +9,7 @@ import HeroImage from './HeroImage'
 import styles from './index.module.scss';
 
 const HeroSection = () =>
-    <section className="section is-hero">
+    <section className={`${styles.container} section is-hero`}>
         <div className="container">
             <div className={`${styles.columns} columns`}>
                 <CallToAction />
