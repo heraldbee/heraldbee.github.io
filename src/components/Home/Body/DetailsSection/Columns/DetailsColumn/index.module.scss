@@ -1,0 +1,21 @@
+@import '../../../../../../styles';
+
+.header {
+    &Title {
+        font-weight: 400;
+
+        &Bold {
+            font-weight: 600 !important;
+        }
+    }
+
+    &Subtitle {
+        @include opaqueTextLight;
+    }
+}
+
+.body {
+    &Tabs ul {
+        flex-direction: column !important;
+    }
+}
