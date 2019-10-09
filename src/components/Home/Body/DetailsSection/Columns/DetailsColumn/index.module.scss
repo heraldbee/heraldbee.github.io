@@ -2,7 +2,7 @@
 
 .header {
     &Title {
-        font-weight: 400;
+        font-weight: 400 !important;
 
         &Bold {
             font-weight: 600 !important;
@@ -11,11 +11,5 @@
 
     &Subtitle {
         @include opaqueTextLight;
-    }
-}
-
-.body {
-    &Tabs ul {
-        flex-direction: column !important;
     }
 }
