@@ -2,7 +2,7 @@
 
 .container {
     width: 100%;
-    background-color: $lightGray2;
+    background-color: $primaryBlue;
     padding: 15px 10px;
 
     @include respond-to(medium) {
@@ -23,7 +23,16 @@
 
 .text {
     font-weight: 600;
-    opacity: .8;
     margin: 0 10px;
-    
+    text-transform: none !important;
+}
+
+.button {
+    &Icon {
+        margin: 0 10px 2px 0;
+    }
+
+    &Text {
+        text-transform: none;
+    }
 }

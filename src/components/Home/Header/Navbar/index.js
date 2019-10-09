@@ -1,6 +1,5 @@
 // Core
 import React, { useState } from 'react';
-import { Link } from "gatsby"
 
 // Custom Components
 import Brand from './Brand';
@@ -18,7 +17,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className={`${styles.container} navbar is-sticky`} role="navigation" aria-label="main navigation">
+        <nav className={`${styles.container} navbar`} role="navigation" aria-label="main navigation">
             <Brand isActive={isMenuOpen} onToggle={onMenuToggle} />
             <BurgerMenu isOpen={isMenuOpen} />
         </nav>

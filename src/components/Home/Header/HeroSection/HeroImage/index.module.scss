@@ -1,0 +1,9 @@
+@import '../../../../../styles';
+
+.container {
+    &Text {
+        margin-top: 5px;
+        text-align: center;
+        @include opaqueTextLight;
+    }
+}

@@ -22,7 +22,7 @@ const HeroImage = () => {
         <div className="column is-6">
             <div className="section-media">
                 <Img fluid={data.placeholder.childImageSharp.fluid}/>
-                <p>Lorem Ipsum</p>
+                <p className={styles.containerText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam.</p>
             </div>
         </div>
     );

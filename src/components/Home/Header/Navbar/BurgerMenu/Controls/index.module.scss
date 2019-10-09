@@ -9,3 +9,11 @@
         justify-content: flex-start;
     }
 }
+
+.text {
+    text-transform: none !important;
+}
+
+.outlinedButton {
+    @include outlinedButton;
+}

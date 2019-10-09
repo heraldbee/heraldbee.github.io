@@ -4,7 +4,6 @@ import { Link } from "gatsby";
 
 // Custom Components
 import Layout from "../components/layout";
-import Image from "../components/image";
 import SEO from "../components/seo";
 
 // Stylesheet

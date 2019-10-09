@@ -1,0 +1,31 @@
+// Typography
+@mixin transparentTextHeavy {
+    opacity: .4;
+    font-weight: 600;
+}
+
+@mixin transparentTextLight {
+    opacity: .4;
+    font-weight: 400;
+}
+
+@mixin opaqueTextHeavy {
+    opacity: .7;
+    font-weight: 600;
+}
+
+@mixin opaqueTextLight {
+    opacity: .7;
+    font-weight: 400;
+}
+
+// Inputs
+@mixin outlinedButton {
+    background-color: white !important;
+    color: inherit !important;
+}
+
+// Animations
+@mixin animateColorChange {
+    transition: color .3s;
+}

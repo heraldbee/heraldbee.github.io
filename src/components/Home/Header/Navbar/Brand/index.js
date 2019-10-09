@@ -11,7 +11,7 @@ import styles from './index.module.scss';
 const Brand = ({ isActive, onToggle }) => 
     <div className="navbar-brand">
         <a className={`${styles.imageContainer} navbar-item`} href="https://heraldbee.com">
-            <img className={styles.imageContent} src={logo} />
+            <img className={styles.imageContent} src={logo} alt="Heraldbee Logo"/>
         </a>
 
         <div 
