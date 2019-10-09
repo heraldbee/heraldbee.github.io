@@ -16,6 +16,7 @@
         align-items: center !important;
         margin: 20px auto !important;
         background-color: $lightGray2 !important;
+        max-width: 90vw;
 
         @include respond-to(small) {
             flex-direction: row;
