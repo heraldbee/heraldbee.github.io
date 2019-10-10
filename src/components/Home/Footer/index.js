@@ -9,7 +9,7 @@ import Main from './Main';
 import styles from './index.module.scss';
 
 const Footer = () =>
-    <footer className={`${styles.container} section is-medium`}>
+    <footer className={`${styles.container} section`}>
         <div className={`container`}>
             <div className={`columns`}>
                 <Aside />
