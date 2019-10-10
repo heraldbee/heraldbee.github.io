@@ -1,0 +1,23 @@
+@import '../../../../styles';
+
+.container {
+    &Img {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        @include respond-to(xLarge) {
+            justify-content: space-around;
+        }
+    }
+}
+
+.item {
+    width: 200px;
+    height: 100px;
+    max-width: 200px;
+    margin-top: 20px;
+
+    &Img {
+        width: 100%;
+    }
+}

@@ -11,7 +11,6 @@ const Column = ({ title, listItems }) =>
         <ul className={`${styles.list}`}>
             {
                 listItems.map((item, i) => {
-                    console.log(item);
                     return (
                         <li key={i}>
                             {item}

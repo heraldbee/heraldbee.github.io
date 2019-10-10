@@ -7,6 +7,7 @@ import SEO from "../components/seo";
 import HeroSection from '../components/Home/Body/HeroSection';
 import FeaturedSection from '../components/Home/Body/FeaturedSection';
 import DetailsSection from '../components/Home/Body/DetailsSection';
+import PartnersSection from '../components/Home/Body/PartnersSection';
 
 // Stylesheet
 import './index.scss';
@@ -17,6 +18,7 @@ const IndexPage = () =>
     <HeroSection />
     <FeaturedSection />
     <DetailsSection />
+    <PartnersSection />
   </Layout>
 
 export default IndexPage;
