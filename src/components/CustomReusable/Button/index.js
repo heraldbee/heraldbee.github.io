@@ -8,15 +8,23 @@ import MaterialButton from '../../Material/MaterialButton';
 // Stylesheet
 import styles from './index.module.scss';
 
-const Button = ({ children }) =>
-    <MaterialButton>
-        <strong className={`${styles.button} button is-primary`}>
-            {children}
-        </strong>
-    </MaterialButton>
+const Button = ({ children, isInverted }) => {
+    const buttonClasses = `${styles.button} button is-primary`;
+    const invertedClasses = `${styles.button} button is-primary is-outlined`;
+
+    return (
+        <MaterialButton>
+            <strong className={isInverted ? invertedClasses : buttonClasses}>
+                {children}
+            </strong>
+        </MaterialButton>
+    );
+};
+    
 
 Button.propTypes = {
-    children: PropTypes.node.isRequired
+    children: PropTypes.node.isRequired,
+    isInverted: PropTypes.bool
 };
 
 export default Button;
