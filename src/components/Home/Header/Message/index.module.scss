@@ -2,7 +2,7 @@
 
 .container {
     width: 100%;
-    background-color: $primaryBlue;
+    background-color: $backgroundCherry;
     padding: 15px 10px;
 
     @include respond-to(medium) {
@@ -22,12 +22,15 @@
 }
 
 .text {
+    color: white;
     font-weight: 600;
     margin: 0 10px;
     text-transform: none !important;
 }
 
 .button {
+    color: $primaryBrown !important;
+
     &Icon {
         margin: 0 10px 2px 0;
     }
