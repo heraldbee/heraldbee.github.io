@@ -25,7 +25,7 @@ const CallToAction = () =>
                     <p className={`${styles.contentControlsText}`}>Chcę zautomatyzować swój sklep</p>
                 </Button>
             </div>
-            <Link className={styles.contentLink}><FontAwesomeIcon icon={faLightbulb}/> Wykorzystaj nowe technologie internetowe</Link>
+            <Link to="/" className={styles.contentLink}><FontAwesomeIcon icon={faLightbulb}/> Wykorzystaj nowe technologie internetowe</Link>
         </div>
     </div>
 

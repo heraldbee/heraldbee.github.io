@@ -54,19 +54,19 @@ const PartnersSection = () => {
                     <div className="column is-12">
                         <div className={`${styles.containerImg} level is-mobile`}>
                             <div className={`${styles.item} level-item`}>
-                                <Img fluid={data.gPartnerLogo.childImageSharp.fluid} className={styles.itemImg}/>
+                                <Img fluid={data.gPartnerLogo.childImageSharp.fluid} className={styles.itemImg} alt="Our partner's logo"/>
                             </div>
                             <div className={`${styles.item} level-item`}>
-                                <Img fluid={data.forbesCertifiedLogo.childImageSharp.fluid} className={styles.itemImg}/>
+                                <Img fluid={data.forbesCertifiedLogo.childImageSharp.fluid} className={styles.itemImg} alt="Our certificate's logo"/>
                             </div>
                             <div className={`${styles.item} level-item`}>
-                                <Img fluid={data.shopifyPartnerLogo.childImageSharp.fluid} className={styles.itemImg}/>
+                                <Img fluid={data.shopifyPartnerLogo.childImageSharp.fluid} className={styles.itemImg} alt="Our partner's logo"/>
                             </div>
                             <div className={`${styles.item} level-item`}>
-                                <Img fluid={data.woocommerceLogo.childImageSharp.fluid} className={styles.itemImg}/>
+                                <Img fluid={data.woocommerceLogo.childImageSharp.fluid} className={styles.itemImg} alt="Woocommerce Logo"/>
                             </div>
                             <div className={`${styles.item} level-item`}>
-                                <Img fluid={data.gaCertifiedLogo.childImageSharp.fluid} className={styles.itemImg}/>
+                                <Img fluid={data.gaCertifiedLogo.childImageSharp.fluid} className={styles.itemImg} alt="Our certificate's logo"/>
                             </div>
                         </div>
                     </div>

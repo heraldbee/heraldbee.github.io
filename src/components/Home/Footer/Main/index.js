@@ -5,7 +5,7 @@ import { Link } from 'gatsby';
 // Third-Party Modules
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faFacebookSquare, faTwitterSquare, faInstagram, faPinterestSquare, faLinkedinIn, faPinterest } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookSquare, faTwitterSquare, faInstagram, faPinterestSquare, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
 // Custom Components
 import Column from './Column';
@@ -83,13 +83,13 @@ const Main= () => {
     ]
 
     return (
-        <section className={`column is-7 is-6-widescreen is-offset-2-widescreen`}>
+        <main className={`column is-7 is-6-widescreen is-offset-2-widescreen`}>
             <div className={`columns`}>
                 <Column title="Dane Kontaktowe" listItems={contactItems}/>
                 <Column title="Zasoby" listItems={resourceItems}/>
                 <Column title="Połącz się z nami" listItems={connectItems}/>
             </div>
-        </section>
+        </main>
     );
 };
 

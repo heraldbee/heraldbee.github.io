@@ -19,10 +19,10 @@ const Aside = () => {
     }
     `);
     return (
-        <section className={`${styles.container} column is-5 is-4-widescreen`}>
+        <aside className={`${styles.container} column is-5 is-4-widescreen`}>
             <div className={`${styles.header}`}>
                 <div className={`${styles.image}`}>
-                    <Link>
+                    <Link to="/">
                         <Img className={styles.imageInner} fixed={data.logo.childImageSharp.fixed} alt="Heraldbee Logo"/>
                     </Link>
                 </div>
@@ -32,7 +32,7 @@ const Aside = () => {
                 <h3 className={`${styles.newsfeedTitle} title is-family-secondary is-size-5`}>Najnowsze informacje</h3>
                 <p className={`${styles.newsfeedContent} is-size-6`}>Inteligentne algorytmy Heraldbee otrzymały dofinansowanie z polskiego Narodowego Centrum Badań i Rozwoju, które jest agencją wykonawczą Ministerstwa Nauki i Szkolnictwa Wyższego.</p>
             </div>
-        </section>
+        </aside>
     );
 };
 
