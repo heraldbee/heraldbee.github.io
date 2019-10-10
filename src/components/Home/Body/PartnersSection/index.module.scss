@@ -1,6 +1,9 @@
 @import '../../../../styles';
 
 .container {
+    position: relative !important;
+    z-index: -1;
+    
     &Img {
         flex-wrap: wrap;
         justify-content: center;

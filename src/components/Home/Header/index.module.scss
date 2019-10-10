@@ -5,6 +5,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative !important;
+    z-index: -1;
 
     @include respond-to(large) {
         border-bottom: 2px solid $lightGray2;

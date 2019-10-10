@@ -1,0 +1,40 @@
+@import '../../../../../styles';
+
+.container {
+    display: none;
+    // position: fixed;
+    // height: 100vh;
+    // width: 100vw;
+    // z-index: 997;
+
+    &::before {
+        z-index: 998;
+        content: '';
+        position: fixed;
+        height: 100vh;
+        width: 100vw;
+        background-color: $backgroundCherry;
+        opacity: .5;
+        top: 0;
+        left: 0;
+    }
+}
+
+.isOpen {
+    display: initial;
+}
+
+.video {
+    &Container {
+        position: fixed;
+        top: 20%;
+        left: 5%;
+        z-index: 999;
+        height: 50%;
+        width: 90%;
+    }
+    
+    &Player {
+        height: 100%;
+    }
+}

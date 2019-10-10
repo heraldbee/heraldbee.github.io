@@ -2,4 +2,6 @@
 
 .container {
     background-color: $backgroundCherry;
+    position: relative !important;
+    z-index: -1;
 }
