@@ -30,13 +30,13 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <section className={styles.wrapper}>
       <Header siteTitle={data.site.siteMetadata.title} />
       <section>
-        <main className={styles.wrapper}>{children}</main>
+        <main>{children}</main>
       </section>
       <Footer />
-    </>
+    </section>
   );
 };
 
