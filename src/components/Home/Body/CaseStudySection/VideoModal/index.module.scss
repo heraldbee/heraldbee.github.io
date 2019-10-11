@@ -2,10 +2,12 @@
 
 .container {
     display: none;
-    // position: fixed;
-    // height: 100vh;
-    // width: 100vw;
-    // z-index: 997;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+    top: 0;
+    left: 0;
 
     &::before {
         z-index: 998;
@@ -18,6 +20,14 @@
         top: 0;
         left: 0;
     }
+
+    &Inner {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .isOpen {
@@ -26,12 +36,30 @@
 
 .video {
     &Container {
-        position: fixed;
-        top: 20%;
-        left: 5%;
+        position: relative;
         z-index: 999;
-        height: 50%;
-        width: 90%;
+        height: 144px;
+        width: 256px;
+
+        @include respond-to(small) {
+            height: 216px;
+            width: 384px;
+        }
+
+        @include respond-to(medium) {
+            height: 360px;
+            width: 640px;
+        }
+
+        @include respond-to(large) {
+            height: 504px;
+            width: 896px;
+        }
+
+        @include respond-to(xxLarge) {
+            height: 576px;
+            width: 1024px;
+        }
     }
     
     &Player {

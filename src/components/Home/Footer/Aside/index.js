@@ -11,7 +11,7 @@ const Aside = () => {
     query {
         logo: file(relativePath: { eq: "logo_hb_full.png" }) {
             childImageSharp {
-                fixed(width: 300) {
+                fixed(width: 200) {
                     ...GatsbyImageSharpFixed
                 }
             }

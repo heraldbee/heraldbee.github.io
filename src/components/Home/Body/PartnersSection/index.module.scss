@@ -6,10 +6,10 @@
     
     &Img {
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: center !important;
 
         @include respond-to(xLarge) {
-            justify-content: space-around;
+            justify-content: space-around !important;
         }
     }
 }
