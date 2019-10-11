@@ -8,6 +8,7 @@ import HeroSection from '../components/Home/Body/HeroSection';
 import FeaturedSection from '../components/Home/Body/FeaturedSection';
 import DetailsSection from '../components/Home/Body/DetailsSection';
 import CaseStudySection from '../components/Home/Body/CaseStudySection';
+import StatisticsSection from '../components/Home/Body/StatisticsSection';
 import PartnersSection from '../components/Home/Body/PartnersSection';
 
 // Stylesheet
@@ -20,6 +21,7 @@ const IndexPage = () =>
     <FeaturedSection />
     <DetailsSection />
     <CaseStudySection />
+    <StatisticsSection />
     <PartnersSection />
   </Layout>
 

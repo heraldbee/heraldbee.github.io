@@ -1,0 +1,10 @@
+@import '../../../../styles';
+
+.container, .containerSpecial {
+    position: relative !important;
+    z-index: -1;
+}
+
+.container {
+    background-color: $backgroundCherry;
+}
