@@ -1,0 +1,49 @@
+@import '../../../styles';
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    margin: 30px 0;
+
+    @include respond-to(medium) {
+        height: 142px;
+    }
+
+    @include respond-to(large) {
+        height: 118px;
+    }
+
+    &Reversed {
+        @include respond-to(large) {
+            flex-direction: row-reverse;
+            text-align: right !important;
+            margin-left: auto;
+            margin-right: 0;
+        }
+    }
+}
+
+.icon {
+    font-size: 2rem;
+    color: $primaryYellow;
+    width: 2rem !important;
+    margin: 0 10px 0 0;
+
+    &Reversed {
+        @include respond-to(large) {
+            margin: 0 0 0 10px;
+        }
+    }
+}
+
+.content {
+    &Title {
+        color: $primaryBrown !important;
+    }
+
+    &Description {
+        color: $primaryBrown !important;
+        @include opaqueTextHeavy;
+    }
+}

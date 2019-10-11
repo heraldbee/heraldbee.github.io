@@ -1,0 +1,16 @@
+@import '../../../../../styles';
+
+.container {
+    @include respond-to(large) {
+        order: 2 !important;
+    }
+}
+
+.image {
+    max-width: 300px;
+    margin: 0 auto;
+
+    @include respond-to(xLarge) {
+        max-width: 350px;
+    }
+}

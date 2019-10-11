@@ -1,0 +1,18 @@
+@import '../../../../../styles';
+
+.container {
+    padding-top: 0 !important;
+
+    @include respond-to(medium) {
+        padding-top: 12px !important;
+    }
+
+    @include respond-to(large) {
+        order: 3 !important;
+        padding-top: 40px !important;
+    }
+
+    @include respond-to(xLarge) {
+        padding-top: 70px !important;
+    }
+}
