@@ -51,7 +51,7 @@ const CarouselColumn = ({ activeTab }) => {
         <article className={`${styles.container} column is-6 is-hidden-mobile align-self-stretch`}>
             {
                 images.map((image, i) =>
-                    <Slide img={image} activeTab={activeTab} step={i+1}/>
+                    <Slide key={i} img={image} activeTab={activeTab} step={i+1}/>
                 )
             }
         </article>

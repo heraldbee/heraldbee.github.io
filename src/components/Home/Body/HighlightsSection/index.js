@@ -19,16 +19,12 @@ const HighLightsSection = () =>
                 <VisibilitySensor>
                     {
                         ({isVisible}) =>
-                            <MediaColumn isVisible={isVisible}/>
-                    }
-                </VisibilitySensor>
-                <VisibilitySensor>
-                    {
-                        ({isVisible}) =>
                             <>
+                                <MediaColumn isVisible={isVisible}/>
                                 <InfoColumnLeft isVisible={isVisible}/>
                                 <InfoColumnRight isVisible={isVisible}/>
                             </>
+                            
                     }
                 </VisibilitySensor>
             </div>

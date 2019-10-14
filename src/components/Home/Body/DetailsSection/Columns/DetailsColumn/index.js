@@ -16,7 +16,7 @@ const DetailsColumn = ({ activeTab, setActiveTab }) => {
                 <p className={`${styles.headerSubtitle} subtitle is-size-5 is-size-4-desktop`}>Zbudujemy sklep, który przyciągnie nowych klientów i nauczymy Cię nim zarządzać</p>
                 <hr className="space is-2"/>
             </header>
-            <body className={`${styles.body}`}>
+            <main className={`${styles.body}`}>
                 <div className={styles.container}>
                     <ul className={styles.tabs}>
                         <Tab
@@ -49,7 +49,7 @@ const DetailsColumn = ({ activeTab, setActiveTab }) => {
                         />
                     </ul>
                 </div>
-            </body>
+            </main>
         </article>
     );
 };

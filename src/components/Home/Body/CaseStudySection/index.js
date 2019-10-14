@@ -15,7 +15,7 @@ const CaseStudySection = () => {
         query {
             background: file(relativePath: { eq: "background/woolet-case-study.jpg" }) {
                 childImageSharp {
-                    fluid(quality: 90, maxWidth: 1920) {
+                    fluid(quality: 100, maxWidth: 1920) {
                         ...GatsbyImageSharpFluid_withWebp
                     }
                 }

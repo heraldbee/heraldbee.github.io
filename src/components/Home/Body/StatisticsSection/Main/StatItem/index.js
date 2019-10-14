@@ -24,7 +24,7 @@ const StatItem = ({ isVisible, stat, description }) => {
             setCounterDidStart(true);
             start();
         }
-    }, [ isVisible ]);
+    }, [ isVisible, counterDidStart, start ]);
 
     return (
         <article className={`${styles.container} column is-6 is-3-widescreen`}>
