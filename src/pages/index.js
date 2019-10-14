@@ -17,17 +17,17 @@ import PartnersSection from '../components/Home/PartnersSection';
 import './index.scss';
 
 const IndexPage = () =>
-  <LocaleContextProvider locale="pl">
-    <Layout>
-      <SEO title="Home" />
-      <HeroSection />
-      <FeaturedSection />
-      <DetailsSection />
-      <CaseStudySection />
-      <StatisticsSection />
-      <HighLightsSection />
-      <PartnersSection />
-    </Layout>
-  </LocaleContextProvider>
+    <LocaleContextProvider locale="en">
+        <Layout>
+        <SEO title="Home" />
+        <HeroSection />
+        <FeaturedSection />
+        <DetailsSection />
+        <CaseStudySection />
+        <StatisticsSection />
+        <HighLightsSection />
+        <PartnersSection />
+        </Layout>
+    </LocaleContextProvider>
 
 export default IndexPage;

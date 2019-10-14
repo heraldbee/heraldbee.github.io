@@ -1,0 +1,49 @@
+@import '../../../styles';
+
+.container {
+    width: 100%;
+    height: 150px;
+    background-color: $lightGray2;
+    position: relative !important;
+    z-index: 1;
+
+    @include respond-to(small) {
+        height: 250px;
+    }
+
+    @include respond-to(medium) {
+        height: 350px;
+    }
+
+    @include respond-to(large) {
+        height: 500px;
+    }
+
+    &::before {
+        background-size: contain !important;
+
+        @include respond-to(small) {
+            background-size: cover !important;
+        }
+    }
+
+    &Inner {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.video {
+    &Wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    &Content {
+        max-width: 300px;
+    }
+}

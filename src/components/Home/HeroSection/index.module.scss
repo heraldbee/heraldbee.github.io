@@ -1,0 +1,10 @@
+@import '../../../styles';
+
+.container {
+    @include sectionContainer;
+}
+
+.columns {
+    max-width: 100vw;
+    margin-top: 30px;
+}

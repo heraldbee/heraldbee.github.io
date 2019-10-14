@@ -1,0 +1,15 @@
+@import '../../../../../styles';
+
+.header {
+    &Title {
+        font-weight: 400 !important;
+
+        &Bold {
+            font-weight: 600 !important;
+        }
+    }
+
+    &Subtitle {
+        @include opaqueTextLight;
+    }
+}

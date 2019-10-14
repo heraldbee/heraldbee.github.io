@@ -11,8 +11,8 @@ import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
 
 // Custom Components
-import Header from './Home/Header';
-import Footer from './Home/Footer';
+import Header from './Header';
+import Footer from './Footer';
 
 // Stylesheet
 import "./layout.css";

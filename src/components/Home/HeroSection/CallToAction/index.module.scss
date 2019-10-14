@@ -1,0 +1,46 @@
+@import '../../../../styles';
+
+.content {
+    &Subtitle {
+        @include opaqueTextLight;
+    }
+
+    &Link {
+        @include animateColorChange;
+    }
+
+    &Controls {
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center !important;
+        margin: 20px auto !important;
+        background-color: $lightGray2 !important;
+        max-width: 90vw;
+
+        @include respond-to(small) {
+            flex-direction: row;
+        }
+
+        @include respond-to(medium) {
+            flex-direction: column;
+        }
+
+        @include respond-to(xLarge) {
+            flex-direction: row;
+            margin: 60px auto 40px !important;
+        }
+
+        @include respond-to(xLargeBulma) {
+            margin: 80px auto 40px !important;
+        }
+
+        &Text {
+            text-transform: none !important;
+        }
+    }
+}
+
+.outlinedButton {
+    @include outlinedButton;
+}

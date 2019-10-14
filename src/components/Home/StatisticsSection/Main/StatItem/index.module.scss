@@ -1,0 +1,14 @@
+@import '../../../../../styles';
+
+.container {
+    text-align: center;
+}
+
+.stat {
+    color: white !important;
+}
+
+.description {
+    color: $primaryYellow;
+    @include opaqueTextHeavy;
+}

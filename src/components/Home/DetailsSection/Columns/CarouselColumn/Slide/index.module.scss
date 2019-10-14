@@ -1,0 +1,23 @@
+@import '../../../../../../styles';
+
+.container {
+    position: absolute;
+    top: 5%;
+    bottom: 5%;
+    left: 10%;
+    right: 10%;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all .5s;
+}
+
+.isActive {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.card {
+    margin: 0 auto;
+    max-height: 650px;
+    max-width: 450px;
+}

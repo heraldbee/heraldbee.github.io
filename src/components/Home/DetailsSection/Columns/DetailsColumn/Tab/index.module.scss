@@ -1,0 +1,67 @@
+@import '../../../../../../styles';
+
+.container {
+    position: relative;
+    padding: 10px 0 10px 2em;
+
+    @include respond-to(medium) {
+        cursor: pointer;
+    }
+
+    @include respond-to(large) {
+        padding: 15px 0 15px 2em;
+    }
+
+    &:hover {
+        .description {
+            opacity: .7;
+        }
+
+        .title {
+            opacity: 1;
+        }
+    }
+
+    &::after {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 5px;
+        background-color: $primaryYellow;
+
+        @include respond-to(medium) {
+            opacity: .2;
+        }
+    }
+}
+
+.isActive {
+    &::after, .title {
+        opacity: 1 !important;
+    }
+
+    .description {
+        opacity: .7 !important;
+    }
+}
+
+.title, .description {
+    transition: opacity .3s;
+}
+
+.title {
+    @include respond-to(medium) {
+        opacity: .5;
+    }
+}
+
+.description {
+    padding-top: 5px;
+    @include opaqueTextLight;
+
+    @include respond-to(medium) {
+        opacity: .3;
+    }
+}
