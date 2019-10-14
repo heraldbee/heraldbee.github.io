@@ -18,7 +18,7 @@ import Footer from './Home/Footer';
 import "./layout.css";
 import styles from './layout.module.scss';
 
-const Layout = ({ children }) => {
+const Layout = ({ children, omitExtendedHeader }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
 
   return (
     <section className={styles.wrapper}>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Header siteTitle={data.site.siteMetadata.title} omitExtendedHeader={omitExtendedHeader} />
       <section>
         <main>{children}</main>
       </section>
@@ -42,6 +42,7 @@ const Layout = ({ children }) => {
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  omitExtendedHeader: PropTypes.bool
 }
 
 export default Layout

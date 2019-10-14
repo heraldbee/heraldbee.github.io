@@ -2,6 +2,7 @@
 import React from "react";
 
 // Custom Components
+import LocaleContextProvider from '../context/LocaleContext';
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import HeroSection from '../components/Home/Body/HeroSection';
@@ -16,15 +17,17 @@ import PartnersSection from '../components/Home/Body/PartnersSection';
 import './index.scss';
 
 const IndexPage = () =>
-  <Layout>
-    <SEO title="Home" />
-    <HeroSection />
-    <FeaturedSection />
-    <DetailsSection />
-    <CaseStudySection />
-    <StatisticsSection />
-    <HighLightsSection />
-    <PartnersSection />
-  </Layout>
+  <LocaleContextProvider locale="pl">
+    <Layout>
+      <SEO title="Home" />
+      <HeroSection />
+      <FeaturedSection />
+      <DetailsSection />
+      <CaseStudySection />
+      <StatisticsSection />
+      <HighLightsSection />
+      <PartnersSection />
+    </Layout>
+  </LocaleContextProvider>
 
 export default IndexPage;
