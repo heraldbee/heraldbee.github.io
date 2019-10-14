@@ -1,6 +1,9 @@
 // Core
 import React from 'react';
 
+// Third-Party Modules
+import VisibilitySensor from 'react-visibility-sensor';
+
 // Custom Components
 import MediaColumn from './MediaColumn';
 import InfoColumnLeft from './InfoColumnLeft';
@@ -13,9 +16,21 @@ const HighLightsSection = () =>
     <section className={`${styles.container} section`}>
         <div className={`container`}>
             <div className={`columns is-multiline`}>
-                <MediaColumn />
-                <InfoColumnLeft/>
-                <InfoColumnRight/>
+                <VisibilitySensor>
+                    {
+                        ({isVisible}) =>
+                            <MediaColumn isVisible={isVisible}/>
+                    }
+                </VisibilitySensor>
+                <VisibilitySensor>
+                    {
+                        ({isVisible}) =>
+                            <>
+                                <InfoColumnLeft isVisible={isVisible}/>
+                                <InfoColumnRight isVisible={isVisible}/>
+                            </>
+                    }
+                </VisibilitySensor>
             </div>
         </div>
     </section>
