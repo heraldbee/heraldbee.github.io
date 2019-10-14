@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{262:function(e,n,t){"use strict";t.r(n);var a=t(0),c=t.n(a),r=t(42),i=t(255),l=t(254);n.default=function(){return c.a.createElement(r.b,{locale:"pl"},c.a.createElement(i.a,{omitExtendedHeader:!0},c.a.createElement(l.a,{title:"Cennik"})))}}}]);
+//# sourceMappingURL=component---src-pages-adnabu-alternative-index-pl-js-39748310df7fcd696296.js.map

@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{263:function(e,n,t){"use strict";t.r(n);var a=t(0),c=t.n(a),r=t(42),i=t(255),o=t(254);n.default=function(){return c.a.createElement(r.b,{locale:"en"},c.a.createElement(i.a,{omitExtendedHeader:!0},c.a.createElement(o.a,{title:"Cennik"})))}}}]);
+//# sourceMappingURL=component---src-pages-adscale-alternative-index-js-5b1f9d851e35542b108b.js.map

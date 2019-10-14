@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[24],{277:function(e,n,t){"use strict";t.r(n);var a=t(0),c=t.n(a),r=t(42),i=t(255),o=t(254);n.default=function(){return c.a.createElement(r.b,{locale:"en"},c.a.createElement(i.a,{omitExtendedHeader:!0},c.a.createElement(o.a,{title:"Cennik"})))}}}]);
+//# sourceMappingURL=component---src-pages-storeya-alternative-index-js-0b1c701946137f1c8274.js.map

@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[23],{276:function(e,n,t){"use strict";t.r(n);var a=t(0),c=t.n(a),r=t(42),i=t(255),l=t(254);n.default=function(){return c.a.createElement(r.b,{locale:"pl"},c.a.createElement(i.a,{omitExtendedHeader:!0},c.a.createElement(l.a,{title:"Cennik"})))}}}]);
+//# sourceMappingURL=component---src-pages-privacy-policy-index-pl-js-f5bcc6adfd553774dffb.js.map
