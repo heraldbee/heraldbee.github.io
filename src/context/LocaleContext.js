@@ -4,10 +4,8 @@ import React, { createContext, useState } from 'react';
 export const LocaleContext = createContext();
 
 const LocaleContextProvider = ({ children, locale }) => {
+    // eslint-disable-next-line
     const [ language, setLanguage ] = useState(locale);
-    
-    console.log('provider');
-    console.log(language);
 
     return (
         <LocaleContext.Provider value={{ language }}>

@@ -5,11 +5,13 @@ import React from 'react';
 import LocaleContextProvider from '../../context/LocaleContext';
 import Layout from '../../components/layout';
 import SEO from '../../components/seo';
+import PricingSection from '../../components/Pages/PricingSection';
 
 const PricingPage = () =>
     <LocaleContextProvider locale="en">
         <Layout omitExtendedHeader>
             <SEO title="Cennik"/>
+            <PricingSection />
         </Layout>
     </LocaleContextProvider>
 
