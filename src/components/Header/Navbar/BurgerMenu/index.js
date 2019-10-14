@@ -20,9 +20,9 @@ const BurgerMenu = ({ isOpen }) => {
     return (
         <div className={`${styles.container} navbar-menu navbar-end ${isOpen ? 'is-active' : null}`}>
             <Link to={`/${localizedPrefix(language)}`} activeClassName="is-active" className={`${styles.containerItem} navbar-item`}>Strona Główna</Link>
-            <Link to={`/${localizedPrefix(language)}our-story`} activeClassName="is-active" className={`${styles.containerItem} navbar-item`}>Nasza Historia</Link>
-            <Link to={`/${localizedPrefix(language)}pricing`} activeClassName="is-active" className={`${styles.containerItem} navbar-item`}>Cennik</Link>
-            <Link to={`/${localizedPrefix(language)}blog`} activeClassName="is-active" className={`${styles.containerItem} navbar-item`}>Blog</Link>
+            <Link to={`/${localizedPrefix(language)}our-story/`} activeClassName="is-active" className={`${styles.containerItem} navbar-item`}>Nasza Historia</Link>
+            <Link to={`/${localizedPrefix(language)}pricing/`} activeClassName="is-active" className={`${styles.containerItem} navbar-item`}>Cennik</Link>
+            <Link to={`/${localizedPrefix(language)}blog/`} activeClassName="is-active" className={`${styles.containerItem} navbar-item`}>Blog</Link>
             
             <Controls />
         </div>

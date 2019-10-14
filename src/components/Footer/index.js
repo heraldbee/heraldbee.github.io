@@ -4,6 +4,7 @@ import React from 'react';
 // Custom Components
 import Aside from './Aside';
 import Main from './Main';
+import PrivacyAndTerms from './PrivacyAndTerms';
 
 // Stylesheet
 import styles from './index.module.scss';
@@ -15,6 +16,7 @@ const Footer = () =>
                 <Aside />
                 <Main />
             </div>
+            <PrivacyAndTerms />
         </div>
     </footer>
 

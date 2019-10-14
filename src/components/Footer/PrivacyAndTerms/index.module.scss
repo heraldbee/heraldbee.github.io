@@ -1,0 +1,28 @@
+@import '../../../styles';
+
+.container {
+    justify-content: center !important;
+}
+
+.link, .linkGrouped {
+    position: relative;
+    color: white !important;
+    @include opaqueTextLight;
+    transition: all .3s;
+    font-size: 1rem !important;
+    margin: 0 10px 5px 0 !important;
+    text-transform: uppercase;
+
+    @include respond-to(medium) {
+        font-size: .85rem !important;
+    }
+
+    @include respond-to(xxLarge) {
+        font-size: 1rem !important;
+    }
+
+    &:hover {
+        color: $primaryOrange !important;
+        opacity: 1 !important;
+    }
+}

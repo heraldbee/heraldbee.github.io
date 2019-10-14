@@ -1,28 +1,35 @@
 // Core
-import React from 'react';
+import React, { useContext } from 'react';
 import { useStaticQuery, graphql, Link } from 'gatsby';
 import Img from 'gatsby-image';
+
+// Custom Modules
+import { LocaleContext } from '../../../context/LocaleContext';
+import { localizedPrefix } from '../../../utils/SharedUtils';
 
 // Stylesheet
 import styles from './index.module.scss';
 
 const Aside = () => {
     const data = useStaticQuery(graphql`
-    query {
-        logo: file(relativePath: { eq: "logo_hb_full.png" }) {
-            childImageSharp {
-                fixed(width: 200) {
-                    ...GatsbyImageSharpFixed
+        query {
+            logo: file(relativePath: { eq: "logo_hb_full.png" }) {
+                childImageSharp {
+                    fixed(width: 200) {
+                        ...GatsbyImageSharpFixed
+                    }
                 }
             }
         }
-    }
     `);
+
+    const { language } = useContext(LocaleContext);
+
     return (
         <aside className={`${styles.container} column is-5 is-4-widescreen`}>
             <div className={`${styles.header}`}>
                 <div className={`${styles.image}`}>
-                    <Link to="/">
+                    <Link to={`/${localizedPrefix(language)}`}>
                         <Img className={styles.imageInner} fixed={data.logo.childImageSharp.fixed} alt="Heraldbee Logo"/>
                     </Link>
                 </div>
